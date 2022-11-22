@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 function HeroTitle() {
 
-    var skillList = [
+    let skillList = [
         'HTML',
         'CSS',
     
@@ -25,18 +25,18 @@ function HeroTitle() {
         'API',
       ];
     
-      var [skillIndex, setSkillIndex] = useState(0);
+      let [skillIndex, setSkillIndex] = useState(0);
     
-      var [oldTransparent, setOldTransparent] = useState(false);
-      var [newTransparent, setNewTransparent] = useState(true);
+      let [oldTransparent, setOldTransparent] = useState(false);
+      let [newTransparent, setNewTransparent] = useState(true);
     
-      var [oldCollapsed, setOldCollapsed] = useState(false);
+      let [oldCollapsed, setOldCollapsed] = useState(false);
     
-      var [oldTransition, setOldTransition] = useState(true);
-      var [newTransition, setNewTransition] = useState(true);
+      let [oldTransition, setOldTransition] = useState(true);
+      let [newTransition, setNewTransition] = useState(true);
     
-      var [mobileOldTransparent, setMobileOldTransparent] = useState(false);
-      var [mobileNewTransparent, setMobileNewTransparent] = useState(true);
+      let [mobileOldTransparent, setMobileOldTransparent] = useState(false);
+      let [mobileNewTransparent, setMobileNewTransparent] = useState(true);
     
       useEffect(() => {
         const intervalAnimation = setInterval(() => {

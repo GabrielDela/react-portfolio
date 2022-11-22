@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 
 function HeroLoader() {
-  var [percent, setPercent] = useState(0);
+  let [percent, setPercent] = useState(0);
 
   useEffect(() => {
     const intervalAnimation = setInterval(() => {
