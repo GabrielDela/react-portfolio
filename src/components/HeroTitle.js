@@ -10,8 +10,9 @@ function HeroTitle() {
         'JS',
         'NODEJS',
         'EXPRESS',
-        'REACTJS',
+        'REACT',
         'NEXTJS',
+        'TESTCAFÉ',
     
         'PHP',
         'LARAVEL',
@@ -23,6 +24,7 @@ function HeroTitle() {
         'CI/CD',
         'DOCKER',
         'API',
+        'SONARQUBE',
       ];
     
       let [skillIndex, setSkillIndex] = useState(0);
